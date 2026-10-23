@@ -1,0 +1,133 @@
+{
+  "id": "kadzoki-callnetherdeep",
+  "title": "Kadzoki - Зов Незердипа",
+  "version": "0.2.3",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Kadzoki",
+      "url": "https://boosty.to/kadzoki",
+      "discord": "Kadzoki",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "kadzoki-callnetherdeep",
+      "label": "Kadzoki-Зов Незердипа",
+      "banner": "modules/kadzoki-callnetherdeep/assets/art/banner.webp",
+      "path": "packs/kadzoki-callnetherdeep",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "esmodules": [
+    "scripts/dnd-kadzoki-sc.mjs"
+  ],
+  "styles": [
+    {
+      "src": "styles/dnd-kadzoki.css"
+    }
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/kadzoki-callnetherdeep/assets/art/adventure-cover-blank.webp",
+      "thumbnail": "modules/kadzoki-callnetherdeep/assets/art/adventure-cover-blank.webp",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Kadzoki Modules",
+      "sorting": "m",
+      "color": "#3d3c3a",
+      "packs": [
+        "kadzoki-callnetherdeep"
+      ],
+      "folders": []
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "3.0.0"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "item-piles",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "monks-active-tiles",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "levels",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "itempilesdnd5e",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "tagger",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "wall-height",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "multilevel-tokens",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "fxmaster",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "monks-scene-navigation",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "advanced-drawing-tools",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "manifest": "https://www.dropbox.com/scl/fi/etkx1427axcnbanrwu0fa/module.json?rlkey=utg0etndzxjyqs90zmpw86j7d&st=corcxyyx&dl=1",
+  "download": "https://www.dropbox.com/scl/fi/c9y5kp7fya7fdnd3rx7cy/kadzoki-callnetherdeep.zip?rlkey=6ky8yng1l1u5n6ii0vvlzo03s&st=enc0sha9&dl=1",
+  "description": "",
+  "flags": {}
+}
